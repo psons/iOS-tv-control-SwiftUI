@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344B701A2A06A4DE008E9992 /* psons_tv_suApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70192A06A4DE008E9992 /* psons_tv_suApp.swift */; };
+		344B701C2A06A4DE008E9992 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B701B2A06A4DE008E9992 /* ContentView.swift */; };
+		344B701E2A06A4DF008E9992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344B701D2A06A4DF008E9992 /* Assets.xcassets */; };
+		344B70212A06A4DF008E9992 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344B70202A06A4DF008E9992 /* Preview Assets.xcassets */; };
+		344B702B2A06A4E0008E9992 /* psons_tv_suTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B702A2A06A4E0008E9992 /* psons_tv_suTests.swift */; };
+		344B70352A06A4E0008E9992 /* psons_tv_suUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70342A06A4E0008E9992 /* psons_tv_suUITests.swift */; };
+		344B70372A06A4E0008E9992 /* psons_tv_suUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70362A06A4E0008E9992 /* psons_tv_suUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		344B70272A06A4E0008E9992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 344B700E2A06A4DE008E9992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344B70152A06A4DE008E9992;
+			remoteInfo = "psons-tv-su";
+		};
+		344B70312A06A4E0008E9992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 344B700E2A06A4DE008E9992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344B70152A06A4DE008E9992;
+			remoteInfo = "psons-tv-su";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		344B70162A06A4DE008E9992 /* psons-tv-su.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "psons-tv-su.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344B70192A06A4DE008E9992 /* psons_tv_suApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = psons_tv_suApp.swift; sourceTree = "<group>"; };
+		344B701B2A06A4DE008E9992 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		344B701D2A06A4DF008E9992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		344B70202A06A4DF008E9992 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		344B70262A06A4E0008E9992 /* psons-tv-suTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "psons-tv-suTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344B702A2A06A4E0008E9992 /* psons_tv_suTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = psons_tv_suTests.swift; sourceTree = "<group>"; };
+		344B70302A06A4E0008E9992 /* psons-tv-suUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "psons-tv-suUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344B70342A06A4E0008E9992 /* psons_tv_suUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = psons_tv_suUITests.swift; sourceTree = "<group>"; };
+		344B70362A06A4E0008E9992 /* psons_tv_suUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = psons_tv_suUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344B70132A06A4DE008E9992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344B70232A06A4E0008E9992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344B702D2A06A4E0008E9992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344B700D2A06A4DE008E9992 = {
+			isa = PBXGroup;
+			children = (
+				344B70182A06A4DE008E9992 /* psons-tv-su */,
+				344B70292A06A4E0008E9992 /* psons-tv-suTests */,
+				344B70332A06A4E0008E9992 /* psons-tv-suUITests */,
+				344B70172A06A4DE008E9992 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		344B70172A06A4DE008E9992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				344B70162A06A4DE008E9992 /* psons-tv-su.app */,
+				344B70262A06A4E0008E9992 /* psons-tv-suTests.xctest */,
+				344B70302A06A4E0008E9992 /* psons-tv-suUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		344B70182A06A4DE008E9992 /* psons-tv-su */ = {
+			isa = PBXGroup;
+			children = (
+				344B70192A06A4DE008E9992 /* psons_tv_suApp.swift */,
+				344B701B2A06A4DE008E9992 /* ContentView.swift */,
+				344B701D2A06A4DF008E9992 /* Assets.xcassets */,
+				344B701F2A06A4DF008E9992 /* Preview Content */,
+			);
+			path = "psons-tv-su";
+			sourceTree = "<group>";
+		};
+		344B701F2A06A4DF008E9992 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				344B70202A06A4DF008E9992 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		344B70292A06A4E0008E9992 /* psons-tv-suTests */ = {
+			isa = PBXGroup;
+			children = (
+				344B702A2A06A4E0008E9992 /* psons_tv_suTests.swift */,
+			);
+			path = "psons-tv-suTests";
+			sourceTree = "<group>";
+		};
+		344B70332A06A4E0008E9992 /* psons-tv-suUITests */ = {
+			isa = PBXGroup;
+			children = (
+				344B70342A06A4E0008E9992 /* psons_tv_suUITests.swift */,
+				344B70362A06A4E0008E9992 /* psons_tv_suUITestsLaunchTests.swift */,
+			);
+			path = "psons-tv-suUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		344B70152A06A4DE008E9992 /* psons-tv-su */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344B703A2A06A4E0008E9992 /* Build configuration list for PBXNativeTarget "psons-tv-su" */;
+			buildPhases = (
+				344B70122A06A4DE008E9992 /* Sources */,
+				344B70132A06A4DE008E9992 /* Frameworks */,
+				344B70142A06A4DE008E9992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "psons-tv-su";
+			productName = "psons-tv-su";
+			productReference = 344B70162A06A4DE008E9992 /* psons-tv-su.app */;
+			productType = "com.apple.product-type.application";
+		};
+		344B70252A06A4E0008E9992 /* psons-tv-suTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344B703D2A06A4E0008E9992 /* Build configuration list for PBXNativeTarget "psons-tv-suTests" */;
+			buildPhases = (
+				344B70222A06A4E0008E9992 /* Sources */,
+				344B70232A06A4E0008E9992 /* Frameworks */,
+				344B70242A06A4E0008E9992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				344B70282A06A4E0008E9992 /* PBXTargetDependency */,
+			);
+			name = "psons-tv-suTests";
+			productName = "psons-tv-suTests";
+			productReference = 344B70262A06A4E0008E9992 /* psons-tv-suTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		344B702F2A06A4E0008E9992 /* psons-tv-suUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344B70402A06A4E0008E9992 /* Build configuration list for PBXNativeTarget "psons-tv-suUITests" */;
+			buildPhases = (
+				344B702C2A06A4E0008E9992 /* Sources */,
+				344B702D2A06A4E0008E9992 /* Frameworks */,
+				344B702E2A06A4E0008E9992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				344B70322A06A4E0008E9992 /* PBXTargetDependency */,
+			);
+			name = "psons-tv-suUITests";
+			productName = "psons-tv-suUITests";
+			productReference = 344B70302A06A4E0008E9992 /* psons-tv-suUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		344B700E2A06A4DE008E9992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					344B70152A06A4DE008E9992 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					344B70252A06A4E0008E9992 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 344B70152A06A4DE008E9992;
+					};
+					344B702F2A06A4E0008E9992 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 344B70152A06A4DE008E9992;
+					};
+				};
+			};
+			buildConfigurationList = 344B70112A06A4DE008E9992 /* Build configuration list for PBXProject "psons-tv-su" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 344B700D2A06A4DE008E9992;
+			productRefGroup = 344B70172A06A4DE008E9992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				344B70152A06A4DE008E9992 /* psons-tv-su */,
+				344B70252A06A4E0008E9992 /* psons-tv-suTests */,
+				344B702F2A06A4E0008E9992 /* psons-tv-suUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		344B70142A06A4DE008E9992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344B70212A06A4DF008E9992 /* Preview Assets.xcassets in Resources */,
+				344B701E2A06A4DF008E9992 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344B70242A06A4E0008E9992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344B702E2A06A4E0008E9992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344B70122A06A4DE008E9992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344B701C2A06A4DE008E9992 /* ContentView.swift in Sources */,
+				344B701A2A06A4DE008E9992 /* psons_tv_suApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344B70222A06A4E0008E9992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344B702B2A06A4E0008E9992 /* psons_tv_suTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344B702C2A06A4E0008E9992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344B70372A06A4E0008E9992 /* psons_tv_suUITestsLaunchTests.swift in Sources */,
+				344B70352A06A4E0008E9992 /* psons_tv_suUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		344B70282A06A4E0008E9992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344B70152A06A4DE008E9992 /* psons-tv-su */;
+			targetProxy = 344B70272A06A4E0008E9992 /* PBXContainerItemProxy */;
+		};
+		344B70322A06A4E0008E9992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344B70152A06A4DE008E9992 /* psons-tv-su */;
+			targetProxy = 344B70312A06A4E0008E9992 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		344B70382A06A4E0008E9992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		344B70392A06A4E0008E9992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		344B703B2A06A4E0008E9992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"psons-tv-su/Preview Content\"";
+				DEVELOPMENT_TEAM = XX9BD4C763;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.psons.psons-tv-su";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		344B703C2A06A4E0008E9992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"psons-tv-su/Preview Content\"";
+				DEVELOPMENT_TEAM = XX9BD4C763;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.psons.psons-tv-su";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		344B703E2A06A4E0008E9992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XX9BD4C763;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.psons.psons-tv-suTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/psons-tv-su.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/psons-tv-su";
+			};
+			name = Debug;
+		};
+		344B703F2A06A4E0008E9992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XX9BD4C763;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.psons.psons-tv-suTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/psons-tv-su.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/psons-tv-su";
+			};
+			name = Release;
+		};
+		344B70412A06A4E0008E9992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XX9BD4C763;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.psons.psons-tv-suUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "psons-tv-su";
+			};
+			name = Debug;
+		};
+		344B70422A06A4E0008E9992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XX9BD4C763;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.psons.psons-tv-suUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "psons-tv-su";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		344B70112A06A4DE008E9992 /* Build configuration list for PBXProject "psons-tv-su" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344B70382A06A4E0008E9992 /* Debug */,
+				344B70392A06A4E0008E9992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344B703A2A06A4E0008E9992 /* Build configuration list for PBXNativeTarget "psons-tv-su" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344B703B2A06A4E0008E9992 /* Debug */,
+				344B703C2A06A4E0008E9992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344B703D2A06A4E0008E9992 /* Build configuration list for PBXNativeTarget "psons-tv-suTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344B703E2A06A4E0008E9992 /* Debug */,
+				344B703F2A06A4E0008E9992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344B70402A06A4E0008E9992 /* Build configuration list for PBXNativeTarget "psons-tv-suUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344B70412A06A4E0008E9992 /* Debug */,
+				344B70422A06A4E0008E9992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 344B700E2A06A4DE008E9992 /* Project object */;
+}
