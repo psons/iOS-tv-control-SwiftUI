@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
     // print...
     //https://stackoverflow.com/questions/56517813/
-      let _ =  print(flatEpisodes)
+      let _ =  print(shows)
         VStack {
             
 //            Text("my data:\(flatEpisodes)")
