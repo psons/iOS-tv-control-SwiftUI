@@ -8,6 +8,7 @@
 import Foundation
 
 var flatEpisodes: [FlatEpisode] = load("streamdata.json")
+var showsDict: [String:Show] = getShows(flatEpisodes)
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
@@ -29,4 +30,18 @@ func load<T: Decodable>(_ filename: String) -> T {
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
+}
+
+func getShows(_ flatEpisodes: [FlatEpisode]) -> [Show] {
+    var showD: [String: Show] = [:]
+    for fe in flatEpisodes {
+        if  showD.keys.contains(fe.show) {
+            print("todo: add FlatEpisode fe to a showto ")
+        } else {
+            print("todo: add a new Show")
+            showD[fe.show] = Show(name: fe.show)
+        }
+        showD[fe.show]?.addFlatEpisode(flatEpisode: fe)
+    }
+    return showD.values.map({ (s: Show) -> Show in return s})
 }
