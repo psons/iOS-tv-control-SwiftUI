@@ -29,6 +29,8 @@ struct ChannelPadView: View {
             HStack {
                 Button("Ch+") {
                     debugPrint("Ch+")
+//                    tvState.channel.increment()
+                    tvState.doIncrement()
                 }
                 Button("4") {
                     tvState.addChannelDigit(digitString: "4")
@@ -43,6 +45,8 @@ struct ChannelPadView: View {
             HStack {
                 Button("Ch-") {
                     debugPrint("Ch-")
+//                    tvState.channel.decrement()
+                    tvState.doDecrement()
                 }
                 Button("7") {
                     tvState.addChannelDigit(digitString: "7")

@@ -10,7 +10,7 @@ import Foundation
 class TVState: ObservableObject  {
     @Published var powerIsOn: Bool = false
     @Published var volume: Int  = 50
-    var channel: Channel = Channel(99)
+    @Published var channel: Channel = Channel(99)
     @Published var channelDigits: String = ""
     
     func addChannelDigit(digitString: String) {
@@ -23,7 +23,18 @@ class TVState: ObservableObject  {
             channel.numberString = channelDigits
             channelDigits = ""
         }
-
+    }
+    
+    func doIncrement() {
+        print("incr before - channel.numberString: \(channel.numberString)")
+        channel.increment()
+        channelDigits = "" // hack forces TVState to mutate and publish the channel update
+        print("incr after - channel.numberString: \(channel.numberString)")
+    }
+    
+    func doDecrement() {
+        channel.decrement()
+        channelDigits = "" // hack forces TVState to mutate and publish the channel update
     }
     
 }
@@ -31,7 +42,7 @@ class TVState: ObservableObject  {
 class Channel: ObservableObject, CustomStringConvertible {
     var number: Int {
         get {return Channel.toChannelInt(fromString: numberString)}
-        set { self.numberString = String(Channel.forceRange(newValue)) }
+        set {numberString = String(Channel.forceRange(newValue))}
         }
     @Published var numberString: String = ""
 
@@ -66,14 +77,19 @@ class Channel: ObservableObject, CustomStringConvertible {
         return n
     }
     
-    func increment() -> Channel {
+    func increment() {
         self.number = Channel.forceRange(self.number + 1)
-        return self
     }
-    func decrement() -> Channel {
+    func decrement() {
         self.number = Channel.forceRange(self.number - 1)
-        return self
     }
+    
+//    func getIncrementedString() -> String  {
+//        return Channel.forceRange(self.number + 1)
+//    }
+//    func decrement() {
+//        self.number = Channel.forceRange(self.number - 1)
+//    }
 }
 
 class FavoriteChannel: Channel {
