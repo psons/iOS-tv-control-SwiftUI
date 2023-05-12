@@ -24,23 +24,7 @@ struct ContentView: View {
                     Label("Stream", systemImage: "list.dash")
                 }
         }
-    }
-//        TabView {
-//            VStack {
-//
-//            }
-//        }.tabItem
-//        Label("Select Type", systemImage: "list.dash")
-//    }
-//    // print...
-//
-//      let _ =  print(shows)
-//        VStack {
-//
-//
-//        }
-//        .padding()
-    
+    }    
 }
 
 struct ContentView_Previews: PreviewProvider {
