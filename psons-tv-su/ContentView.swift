@@ -16,12 +16,12 @@ struct ContentView: View {
         let _ =  print(shows)
         TabView {
             TVTab().tabItem {
-                Label("Select Type", systemImage: "list.dash")
+                Label("Tune", systemImage: "antenna.radiowaves.left.and.right")
             }
                 
             Text("Stream Show Screen").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).padding()
                 .tabItem {
-                    Label("Stream", systemImage: "list.dash")
+                    Label("Stream", systemImage: "externaldrive")
                 }
         }
     }    

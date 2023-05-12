@@ -32,7 +32,7 @@ struct TVStatusView: View {
                 HStack {
                     Text("Speaker Volume: ")
                     Spacer()
-                    Text("50")
+                    Text("\(Int(tvState.volume))")
                 }.padding(statusPadInsets)
                 HStack {
                     Text("Current Channel")

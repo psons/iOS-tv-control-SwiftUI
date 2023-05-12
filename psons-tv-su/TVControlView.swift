@@ -28,13 +28,13 @@ struct TVControlView: View {
                 HStack {
                     Text("Volume").frame(width: labelMarginWidth)
                     Spacer()
-                    Text("Put a slider here")
-                }.padding(ControlRowInsets)
+                    Slider(value: $tvState.volume, in: 01...100).padding(.leading)
+                }.padding(ControlRowInsets).disabled(!tvState.powerIsOn)
                 HStack {
                     Text("Channel").frame(width: labelMarginWidth)
                     Spacer()
                     ChannelPadView(tvState: tvState)
-                }.padding(ControlRowInsets)
+                }.padding(ControlRowInsets).disabled(!tvState.powerIsOn)
                 HStack {
                     Text("Favorite Channel").frame(width: labelMarginWidth)
                     Spacer()
@@ -50,7 +50,7 @@ struct TVControlView: View {
                         tvState.channelDigits = ""
                     }
                     .pickerStyle(.segmented)
-                }.padding(ControlRowInsets)
+                }.padding(ControlRowInsets).disabled(!tvState.powerIsOn)
 //                Text("favChannelIdx: \(favChannelIdx)")
             }
             Spacer().frame(width: 40)
@@ -62,6 +62,13 @@ struct TVControlView: View {
 //struct TVControlView_Previews: PreviewProvider {
 //    @State var previewTvState = TVState()
 //    static var previews: some View {
-//        TVControlView(tvState: $previewTvState)
+//        TVControlView(tvState: previewTvState)
 //    }
 //}
+
+/*
+picker to replace Segmented control
+ - https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-segmented-control-and-read-values-from-it
+onchange action from picker:
+ - https://stackoverflow.com/questions/57518852/swiftui-picker-onchange-or-equivalent
+*/

@@ -9,7 +9,7 @@ import Foundation
 
 class TVState: ObservableObject  {
     @Published var powerIsOn: Bool = false
-    @Published var volume: Int  = 50
+    @Published var volume: Double  = 50
     @Published var channel: Channel = Channel(99)
     @Published var channelDigits: String = ""
     
