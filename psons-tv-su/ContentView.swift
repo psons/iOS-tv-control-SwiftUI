@@ -7,34 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    let ControlRowInsets = EdgeInsets(top: 20, leading: 10, bottom: 20, trailing: 10)
+// Global style
+let ControlRowInsets = EdgeInsets(top: 20, leading: 10, bottom: 20, trailing: 10)
 
+struct ContentView: View {
     var body: some View {
         //https://stackoverflow.com/questions/56517813/
         let _ =  print(shows)
         TabView {
-            VStack {
-                TVStatusView()
-                Text("My Remote Control").font(.title).padding()
-                HStack {
-                    Spacer().frame(width: 40)
-                    VStack {
-                        HStack {
-                            Text("Power")
-                            Spacer()
-                            Text("Put a Toggle here")
-                        }
-                        HStack {
-                            Text("Volue")
-                            Spacer()
-                            Text("Put a slider here")
-                        }.padding(ControlRowInsets)
-                    }
-                    Spacer().frame(width: 40)
-                }
-
-            }.tabItem {
+            TVTab().tabItem {
                 Label("Select Type", systemImage: "list.dash")
             }
                 

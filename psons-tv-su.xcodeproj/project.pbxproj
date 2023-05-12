@@ -18,6 +18,11 @@
 		344B70612A0712CC008E9992 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70602A0712CB008E9992 /* ModelData.swift */; };
 		344B70692A086375008E9992 /* TVStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70682A086375008E9992 /* TVStatusView.swift */; };
 		344B706D2A086D62008E9992 /* streamdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 344B706C2A086D62008E9992 /* streamdata.json */; };
+		344B706F2A0C5495008E9992 /* ChannelButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B706E2A0C5495008E9992 /* ChannelButtonView.swift */; };
+		344B70712A0C5A5C008E9992 /* TVTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70702A0C5A5C008E9992 /* TVTab.swift */; };
+		344B70732A0C646C008E9992 /* TVState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70722A0C646C008E9992 /* TVState.swift */; };
+		344B70752A0D22D5008E9992 /* TVControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70742A0D22D5008E9992 /* TVControlView.swift */; };
+		344B70772A0DB1CE008E9992 /* ChannelPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70762A0DB1CE008E9992 /* ChannelPadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		344B70602A0712CB008E9992 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		344B70682A086375008E9992 /* TVStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVStatusView.swift; sourceTree = "<group>"; };
 		344B706C2A086D62008E9992 /* streamdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = streamdata.json; sourceTree = "<group>"; };
+		344B706E2A0C5495008E9992 /* ChannelButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelButtonView.swift; sourceTree = "<group>"; };
+		344B70702A0C5A5C008E9992 /* TVTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTab.swift; sourceTree = "<group>"; };
+		344B70722A0C646C008E9992 /* TVState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVState.swift; sourceTree = "<group>"; };
+		344B70742A0D22D5008E9992 /* TVControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVControlView.swift; sourceTree = "<group>"; };
+		344B70762A0DB1CE008E9992 /* ChannelPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelPadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +113,15 @@
 			isa = PBXGroup;
 			children = (
 				344B701B2A06A4DE008E9992 /* ContentView.swift */,
+				344B70702A0C5A5C008E9992 /* TVTab.swift */,
 				344B70682A086375008E9992 /* TVStatusView.swift */,
+				344B70742A0D22D5008E9992 /* TVControlView.swift */,
+				344B70762A0DB1CE008E9992 /* ChannelPadView.swift */,
 				344B705C2A070CA4008E9992 /* Model */,
 				344B70192A06A4DE008E9992 /* psons_tv_suApp.swift */,
 				344B701D2A06A4DF008E9992 /* Assets.xcassets */,
 				344B701F2A06A4DF008E9992 /* Preview Content */,
+				344B706E2A0C5495008E9992 /* ChannelButtonView.swift */,
 			);
 			path = "psons-tv-su";
 			sourceTree = "<group>";
@@ -140,6 +154,7 @@
 		344B705C2A070CA4008E9992 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				344B70722A0C646C008E9992 /* TVState.swift */,
 				344B706C2A086D62008E9992 /* streamdata.json */,
 				344B705D2A070CF7008E9992 /* FlatEpisode.swift */,
 				344B70602A0712CB008E9992 /* ModelData.swift */,
@@ -278,11 +293,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				344B70772A0DB1CE008E9992 /* ChannelPadView.swift in Sources */,
 				344B701C2A06A4DE008E9992 /* ContentView.swift in Sources */,
 				344B70612A0712CC008E9992 /* ModelData.swift in Sources */,
 				344B705E2A070CF7008E9992 /* FlatEpisode.swift in Sources */,
+				344B70752A0D22D5008E9992 /* TVControlView.swift in Sources */,
+				344B70732A0C646C008E9992 /* TVState.swift in Sources */,
 				344B701A2A06A4DE008E9992 /* psons_tv_suApp.swift in Sources */,
+				344B706F2A0C5495008E9992 /* ChannelButtonView.swift in Sources */,
 				344B70692A086375008E9992 /* TVStatusView.swift in Sources */,
+				344B70712A0C5A5C008E9992 /* TVTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
