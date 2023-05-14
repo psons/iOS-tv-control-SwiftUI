@@ -8,7 +8,7 @@
 import SwiftUI
 
 // Global style
-let ControlRowInsets = EdgeInsets(top: 20, leading: 10, bottom: 20, trailing: 10)
+let controlRowInsets = EdgeInsets(top: 20, leading: 10, bottom: 20, trailing: 10)
 
 struct ContentView: View {
     var body: some View {

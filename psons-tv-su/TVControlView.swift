@@ -29,12 +29,12 @@ struct TVControlView: View {
                     Text("Volume").frame(width: labelMarginWidth)
                     Spacer()
                     Slider(value: $tvState.volume, in: 01...100).padding(.leading)
-                }.padding(ControlRowInsets).disabled(!tvState.powerIsOn)
+                }.padding(controlRowInsets).disabled(!tvState.powerIsOn)
                 HStack {
                     Text("Channel").frame(width: labelMarginWidth)
                     Spacer()
                     ChannelPadView(tvState: tvState)
-                }.padding(ControlRowInsets).disabled(!tvState.powerIsOn)
+                }.padding(controlRowInsets).disabled(!tvState.powerIsOn)
                 HStack {
                     Text("Favorite Channel").frame(width: labelMarginWidth)
                     Spacer()
@@ -50,7 +50,7 @@ struct TVControlView: View {
                         tvState.channelDigits = ""
                     }
                     .pickerStyle(.segmented)
-                }.padding(ControlRowInsets).disabled(!tvState.powerIsOn)
+                }.padding(controlRowInsets).disabled(!tvState.powerIsOn)
 //                Text("favChannelIdx: \(favChannelIdx)")
             }
             Spacer().frame(width: 40)

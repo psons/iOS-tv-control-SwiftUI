@@ -22,7 +22,7 @@ struct SeasonDetail: View {
                 List(season.episodes) { episode in
                     NavigationLink(destination: EpisodeDetail(season: season, episode: episode)) {
                         EpisodeRow(season: season, episode: episode)
-                    }.padding(ControlRowInsets).background()
+                    }.padding(controlRowInsets).background()
                 }.navigationTitle("Episodes")
             }
 

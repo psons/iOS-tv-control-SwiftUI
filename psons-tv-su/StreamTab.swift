@@ -19,7 +19,7 @@ struct StreamTab: View {
             List(shows) { show in
                 NavigationLink(destination: ShowDetail(show: show)) {
                     ShowRow(show: show)
-                }.padding(ControlRowInsets).background()
+                }.padding(controlRowInsets).background()
             }.navigationTitle("Stream Shows")
         }
         

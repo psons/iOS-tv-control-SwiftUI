@@ -21,7 +21,7 @@ struct ShowDetail: View {
                     NavigationLink(destination: SeasonDetail(show: show, season: season)) {
                         SeasonRow(show: show, season: season)
                     }
-                    .padding(ControlRowInsets)
+                    .padding(controlRowInsets)
 //                    .background()
                 }.navigationTitle("Seasons")
             }
