@@ -33,7 +33,7 @@ struct FlatEpisode: Hashable, Codable {
 }
 
 
-struct Episode: CustomStringConvertible {
+struct Episode: CustomStringConvertible, Identifiable {
     var id: Int  // Identifiable protocol.
     var episode_n: String
     var season_n: String
@@ -68,7 +68,7 @@ struct Episode: CustomStringConvertible {
     }
 }
 
-struct Season: CustomStringConvertible {
+struct Season: CustomStringConvertible, Identifiable {
     var id: Int  // Identifiable protocol.
     var name: String // is FlatEpisode.season
     var episodes: [Episode]
@@ -143,5 +143,15 @@ struct Show: CustomStringConvertible, Identifiable {
             self.seasons.append(newSeason)
             //print("added a season and episode: \(self)")
         }
+    }
+}
+
+extension Show {
+    func getEpisodeCount() -> Int {
+        var episodeCount: Int = 0
+        for season in seasons {
+            episodeCount += season.episodes.count
+        }
+        return episodeCount
     }
 }

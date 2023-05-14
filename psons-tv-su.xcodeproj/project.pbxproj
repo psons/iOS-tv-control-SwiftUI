@@ -18,11 +18,15 @@
 		344B70612A0712CC008E9992 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70602A0712CB008E9992 /* ModelData.swift */; };
 		344B70692A086375008E9992 /* TVStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70682A086375008E9992 /* TVStatusView.swift */; };
 		344B706D2A086D62008E9992 /* streamdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 344B706C2A086D62008E9992 /* streamdata.json */; };
-		344B706F2A0C5495008E9992 /* ChannelButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B706E2A0C5495008E9992 /* ChannelButtonView.swift */; };
 		344B70712A0C5A5C008E9992 /* TVTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70702A0C5A5C008E9992 /* TVTab.swift */; };
 		344B70732A0C646C008E9992 /* TVState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70722A0C646C008E9992 /* TVState.swift */; };
 		344B70752A0D22D5008E9992 /* TVControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70742A0D22D5008E9992 /* TVControlView.swift */; };
 		344B70772A0DB1CE008E9992 /* ChannelPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70762A0DB1CE008E9992 /* ChannelPadView.swift */; };
+		344B707A2A0EE28D008E9992 /* StreamTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70792A0EE28D008E9992 /* StreamTab.swift */; };
+		344B707C2A0EFE31008E9992 /* SeasonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B707B2A0EFE31008E9992 /* SeasonDetail.swift */; };
+		344B707E2A0F064A008E9992 /* EpisodeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B707D2A0F064A008E9992 /* EpisodeDetail.swift */; };
+		344B70802A0FF665008E9992 /* ShowDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B707F2A0FF665008E9992 /* ShowDetail.swift */; };
+		344B70832A10010A008E9992 /* LoginTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344B70822A10010A008E9992 /* LoginTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +61,15 @@
 		344B70602A0712CB008E9992 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		344B70682A086375008E9992 /* TVStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVStatusView.swift; sourceTree = "<group>"; };
 		344B706C2A086D62008E9992 /* streamdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = streamdata.json; sourceTree = "<group>"; };
-		344B706E2A0C5495008E9992 /* ChannelButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelButtonView.swift; sourceTree = "<group>"; };
 		344B70702A0C5A5C008E9992 /* TVTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTab.swift; sourceTree = "<group>"; };
 		344B70722A0C646C008E9992 /* TVState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVState.swift; sourceTree = "<group>"; };
 		344B70742A0D22D5008E9992 /* TVControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVControlView.swift; sourceTree = "<group>"; };
 		344B70762A0DB1CE008E9992 /* ChannelPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelPadView.swift; sourceTree = "<group>"; };
+		344B70792A0EE28D008E9992 /* StreamTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamTab.swift; sourceTree = "<group>"; };
+		344B707B2A0EFE31008E9992 /* SeasonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonDetail.swift; sourceTree = "<group>"; };
+		344B707D2A0F064A008E9992 /* EpisodeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetail.swift; sourceTree = "<group>"; };
+		344B707F2A0FF665008E9992 /* ShowDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetail.swift; sourceTree = "<group>"; };
+		344B70822A10010A008E9992 /* LoginTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,15 +121,13 @@
 			isa = PBXGroup;
 			children = (
 				344B701B2A06A4DE008E9992 /* ContentView.swift */,
-				344B70702A0C5A5C008E9992 /* TVTab.swift */,
-				344B70682A086375008E9992 /* TVStatusView.swift */,
-				344B70742A0D22D5008E9992 /* TVControlView.swift */,
-				344B70762A0DB1CE008E9992 /* ChannelPadView.swift */,
+				344B70822A10010A008E9992 /* LoginTab.swift */,
+				344B70812A0FFB76008E9992 /* Stream */,
+				344B70782A0EE24F008E9992 /* TV */,
 				344B705C2A070CA4008E9992 /* Model */,
 				344B70192A06A4DE008E9992 /* psons_tv_suApp.swift */,
 				344B701D2A06A4DF008E9992 /* Assets.xcassets */,
 				344B701F2A06A4DF008E9992 /* Preview Content */,
-				344B706E2A0C5495008E9992 /* ChannelButtonView.swift */,
 			);
 			path = "psons-tv-su";
 			sourceTree = "<group>";
@@ -160,6 +166,28 @@
 				344B70602A0712CB008E9992 /* ModelData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		344B70782A0EE24F008E9992 /* TV */ = {
+			isa = PBXGroup;
+			children = (
+				344B70702A0C5A5C008E9992 /* TVTab.swift */,
+				344B70682A086375008E9992 /* TVStatusView.swift */,
+				344B70762A0DB1CE008E9992 /* ChannelPadView.swift */,
+				344B70742A0D22D5008E9992 /* TVControlView.swift */,
+			);
+			name = TV;
+			sourceTree = "<group>";
+		};
+		344B70812A0FFB76008E9992 /* Stream */ = {
+			isa = PBXGroup;
+			children = (
+				344B70792A0EE28D008E9992 /* StreamTab.swift */,
+				344B707F2A0FF665008E9992 /* ShowDetail.swift */,
+				344B707B2A0EFE31008E9992 /* SeasonDetail.swift */,
+				344B707D2A0F064A008E9992 /* EpisodeDetail.swift */,
+			);
+			name = Stream;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,10 +326,14 @@
 				344B70612A0712CC008E9992 /* ModelData.swift in Sources */,
 				344B705E2A070CF7008E9992 /* FlatEpisode.swift in Sources */,
 				344B70752A0D22D5008E9992 /* TVControlView.swift in Sources */,
+				344B70802A0FF665008E9992 /* ShowDetail.swift in Sources */,
 				344B70732A0C646C008E9992 /* TVState.swift in Sources */,
+				344B707E2A0F064A008E9992 /* EpisodeDetail.swift in Sources */,
+				344B707C2A0EFE31008E9992 /* SeasonDetail.swift in Sources */,
 				344B701A2A06A4DE008E9992 /* psons_tv_suApp.swift in Sources */,
-				344B706F2A0C5495008E9992 /* ChannelButtonView.swift in Sources */,
 				344B70692A086375008E9992 /* TVStatusView.swift in Sources */,
+				344B70832A10010A008E9992 /* LoginTab.swift in Sources */,
+				344B707A2A0EE28D008E9992 /* StreamTab.swift in Sources */,
 				344B70712A0C5A5C008E9992 /* TVTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

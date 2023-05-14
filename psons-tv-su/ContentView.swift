@@ -18,8 +18,10 @@ struct ContentView: View {
             TVTab().tabItem {
                 Label("Tune", systemImage: "antenna.radiowaves.left.and.right")
             }
-                
-            Text("Stream Show Screen").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).padding()
+            LoginTab().tabItem {
+                Label("Login", systemImage: "person.badge.key")
+            }
+            StreamTab()
                 .tabItem {
                     Label("Stream", systemImage: "externaldrive")
                 }
